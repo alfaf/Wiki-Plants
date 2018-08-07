@@ -1,0 +1,252 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Wiki-Plants
+</name>
+</assembly>
+<members>
+<member name="T:Wiki_Plants.DataSet1.favouriteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wiki_Plants.DataSet1.favouriteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wiki_Plants.DataSet1.favouriteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wiki_Plants.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wiki_Plants.DataSet1TableAdapters.favouriteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wiki_Plants.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wiki_Plants.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wiki_Plants.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Wiki_Plants.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wiki_Plants.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Wiki_Plants.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wiki_Plants.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wiki_Plants.DataSet1TableAdapters.TableAdapterManager.UpdateAll(Wiki_Plants.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wiki_Plants.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wiki_Plants.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wiki_Plants.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet.PLANTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet.PLANTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet.PLANTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSetTableAdapters.PLANTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Wiki_Plants.PlantDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Wiki_Plants.PlantDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Wiki_Plants.PlantDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSetTableAdapters.TableAdapterManager.UpdateAll(Wiki_Plants.PlantDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.BIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.SELLERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.VIEWERDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.BIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.SELLERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.VIEWERRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.BIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.SELLERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1.VIEWERRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1TableAdapters.BIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1TableAdapters.SELLERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1TableAdapters.VIEWERTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Wiki_Plants.PlantDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Wiki_Plants.PlantDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Wiki_Plants.PlantDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Wiki_Plants.PlantDataSet1TableAdapters.TableAdapterManager.UpdateAll(Wiki_Plants.PlantDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Wiki_Plants.PlantDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources._256_256_60eade7f184e696a79fa2ff1e81c851d">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources._get">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.About_us_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.About_us_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.gget">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.HoverUntitled">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.HverUntitled">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.rep">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.Unffftitled">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Wiki_Plants.My.Resources.Resources.Untitlsdsded">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Wiki_Plants.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
